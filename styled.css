@@ -20,6 +20,9 @@ body {
   cursor: pointer;
   color: rgb(163, 157, 157);
 }
+.tvs, .top {
+  flex-shrink: 0;
+}
 .image{
   width: 150px;
   height: 150px;
