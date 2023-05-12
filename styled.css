@@ -1,0 +1,289 @@
+body {
+  background-color: #090909;
+}
+* {
+  box-sizing: border-box;
+}
+.header{
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  height: 90px;
+  background-color: #090909;
+  font-family: Arial;
+  font-size: 16px;
+  justify-content:center;
+  align-items: center;
+}
+.genre, .country, .movies, .tvs, .top{
+  margin-right: 40px;
+  cursor: pointer;
+  color: rgb(163, 157, 157);
+}
+.image{
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  margin-left: 55px;
+  cursor: pointer;
+}
+.search{
+  margin-right: 40px;
+}
+.home{
+  margin-right: 40px;
+  margin-left: 70px;
+  color: rgb(163, 157, 157);
+  cursor: pointer;
+  text-decoration: none;
+}
+.home:hover{
+  color: rgb(164, 187, 238);  
+}
+.genre:hover{
+  color: rgb(164, 187, 238);
+}
+.country:hover{
+  color: rgb(164, 187, 238);
+}
+
+.src{
+  outline: 0;
+  height: 22px;
+  width: 380px;
+  max-width: 500px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 15px;
+  background-color: rgba(255,255,255,.2);
+  border: none;
+  border-radius: 35px;
+  transition: background-color 0.15s;
+  margin-right: 300px;
+}
+.src:hover{
+  background-color: white;
+  color:rgb(141, 136, 136);
+}
+.src::placeholder{
+  color: rgb(163, 157, 157);
+}
+.login{
+  color: rgb(163, 157, 157);
+  margin-left: 0px;
+  cursor: pointer;
+}
+.login:hover{
+  text-decoration: underline;
+}
+.myfb, .mytwit{
+  text-decoration: none;
+}
+
+/*Fmovies middle section*/
+
+.footer{
+  padding-top: 70px;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(20, 20, 20);
+  height: 600px;
+  display: flex;
+  flex: 1;
+}
+.lgos{
+  height: 65px;
+  margin-bottom: 20px;
+}
+.thebutttons{
+  margin-top: 0px;
+}
+i{
+  margin-right: 5px;
+}
+.face{
+  width: 80px;
+  font-size: 11px;
+  color: white;
+  border: none;
+  background-color: blue;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-right: 2px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  cursor: pointer;
+  transition: transform 0.15s;
+}
+.face:hover{
+  transform: translateY(-4px);
+}
+.twitt{
+  width: 80px;
+  background-color: rgb(90, 145, 228);
+  font-size: 11px;
+  color: white;
+  border: none;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 0px;
+  padding-right: 5px;
+  margin-right: 2px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  cursor: pointer;
+  transition: transform 0.15s;
+}
+.twitt:hover{
+  transform: translateY(-4px);
+}
+.mail{
+  width: 80px;
+  background-color: rgb(143, 140, 140);
+  font-size: 11px;
+  color: white;
+  border: none;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 0px;
+  padding-right: 5px;
+  margin-right: 2px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  cursor: pointer;
+  transition: transform 0.15s;
+}
+.mail:hover{
+  transform: translateY(-4px);
+}
+.pin{
+  width: 80px;
+  background-color: red;
+  font-size: 11px;
+  color: white;
+  border: none;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 0px;
+  padding-right: 5px;
+  margin-right: 2px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  cursor: pointer;
+  transition: 0.15s;
+}
+.pin:hover{
+  transform: translateY(-4px);
+}
+.whats{
+  width: 80px;
+  background-color: rgb(21, 180, 29);
+  font-size: 11px;
+  color: white;
+  border: none;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 0px;
+  padding-right: 5px;
+  margin-right: 2px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  cursor: pointer;
+  transition: 0.15s;
+}
+.whats:hover{
+  transform: translateY(-4px);
+}
+.tel{
+  width: 80px;
+  background-color: rgb(50, 135, 233);
+  font-size: 11px;
+  color: white;
+  border: none;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 0px;
+  padding-right: 5px;
+  margin-right: 2px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  cursor: pointer;
+  transition: 0.15s;
+}
+.tel:hover{
+  transform: translateY(-4px);
+}
+.more{
+  width: 80px;
+  background-color: rgb(235, 91, 7);
+  font-size: 11px;
+  color: white;
+  border: none;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 0px;
+  padding-right: 5px;
+  margin-right: 2px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  cursor: pointer;
+}
+.thepar{
+  margin-bottom: 30px;
+}
+.wtch{
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.description{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  width: 915px;
+  line-height: 20px;
+  color: #495057;
+  margin-bottom: 5px;
+}
+.cnnct{
+  margin-top: 0px;
+  color: #00acc1;
+  text-decoration: none;
+  vertical-align: middle;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.cnnct:hover{
+  color: #036b79;
+}
+.fbtt{
+  cursor: pointer;
+  color: #00acc1;
+  border-radius: 3px;
+  border-width: 1.5px;
+  border-style: solid;
+  border-color: #00acc1;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 12px;
+  padding-right: 12px;
+  background-color: rgb(20, 20, 20);
+  transition: background-color 0.15s;
+}
+.fbtt:hover{
+ background-color: #00acc1;
+ color: white;
+}
+.fbtt:active{
+  border-width: 3px;
+  border-color: #036b79;
+  padding-bottom: 11px;
+  padding-top: 11px;
+  padding-left: 9px;
+  padding-right: 9px;
+}
+.alawski {
+  background-color: rgb(20, 20, 20);
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: end;
+}
