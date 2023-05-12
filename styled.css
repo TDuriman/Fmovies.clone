@@ -72,6 +72,7 @@ body {
   color: rgb(163, 157, 157);
 }
 .login{
+  flex-shrink: 0;
   color: rgb(163, 157, 157);
   margin-left: 0px;
   cursor: pointer;
